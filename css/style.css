@@ -1088,7 +1088,7 @@ input{
 
 /* for mobile */ 
 
-@media screen (max-width: 425px) {
+@media screen and (max-width: 425px) {
     header{
         width: 100%;
         padding: 25px;
