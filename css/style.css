@@ -196,13 +196,6 @@ main .container .main-right .rating{
     display: flex;
     margin-top: 100px;
     
-    /* width: 100%;
-    height: 100vh;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto; */
 }
 
 .left{
@@ -831,9 +824,271 @@ input{
     font-size: small;
 }
 
-/* for mobile */
 
-@media screen and (max-width: 425px) {
+
+
+
+/* For tablet */
+@media screen and (min-width: 425px) and (max-width: 850px) {
+    header{
+        width: 10%;
+        padding: 35px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header{
+        position: static;
+        margin-bottom: -100px;
+    }
+
+    header h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    nav{
+        flex-direction: column;
+        column-gap: 30px;
+        text-align: center;
+    }
+    nav ul{
+        border: none;
+    }
+    nav ul li{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    nav .right-nav{
+        margin-bottom: 70px;
+    }
+    nav .right-nav .right-nav-text p{
+        font-size: 20px;
+    }
+    nav .right-nav .right-nav-text #num{
+        font-size: 22px;
+    }
+
+    /* main */
+    main .container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0% 10px;
+        height: auto;
+        position: relative;
+        }
+        main .container .main-left{
+            width: 100%;
+            background-color: transparent;
+        }
+        main .container .main-left .main-left1{
+            color: white;
+            margin-bottom: 3px;
+            line-height: 35px;
+        }
+        main .container .main-left .main-left1 .content{
+            width: 90%;
+            font-size: 27px;
+            line-height: 75px;
+            margin-left: 90px;
+        }
+        main .container .main-left .main-left-prt2{
+            margin-bottom: 40px;
+            margin-left: 110px;
+        }
+        main .container .main-left .main-left-prt2 .left-icon-text{
+            line-height: 30px;
+        }
+        main .container .main-left .main-left-prt2 .left-icon-text .first{
+            color: white;
+            font-size: 25px;
+            
+        }
+        main .container .main-left .main-left-prt2 .left-icon-text .second{
+            color: white;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        main .container .main-left .main-left-prt2 .main-left-icon #icn-img{
+            width: 30px;
+        }
+        main .container .main-left .p-btn .btn{
+            width: 25%;
+            height: 70px;
+            font-size: 22px;
+            margin-left: 250px;
+        }
+        main .container .main-right{
+            width: 100%;
+            align-items: center;
+        }
+        #abs{
+            position: absolute;
+            z-index: 100;
+        }
+        main .container .main-right .main-right-img{
+            height: 90vh;
+            margin-top: 0%;
+        }
+        .services{
+            width: 65%;
+            margin-top: 45px;
+            margin-left: 95px;
+            
+        
+        }
+        .rating{
+            width: 68%;
+            margin-right: 75px;
+            margin-bottom: 45px;
+        }
+
+        /* first-section */
+        .first-container{ 
+            width: 100%;
+            flex-direction: column;
+            padding: 0% 10px;
+            height: auto;
+            margin-bottom: 30px;
+            margin: auto;
+        }
+        .left{
+            width: 100%;
+        }
+         .left .left-cnt{
+            margin-left: 60px;
+            margin-top: 90px;
+        }
+        .left-cnt .content{
+            width: 90%;
+            font-size: 65px;
+            line-height: 75px;
+        }
+        .left-parent{
+            margin-top: 60px;
+        }
+        .left-text .first{
+            font-size: 25px;
+            font-weight: 750;
+            width: 120%;
+        }
+        .left-text .second{
+            font-size: 15px;
+            font-weight: 800;
+            width: 140%;
+            margin-top: 10px;
+        }
+        .left-text .third{
+            font-size: 25px;
+            font-weight: 750;
+            width: 120%;
+        }
+        .left-text .fourth{
+            font-size: 15px;
+            font-weight: 800;
+            width: 140%;
+            margin-top: 10px;
+        }
+        .left-text .fifth{
+            font-size: 25px;
+            font-weight: 750;
+            width: 120%;
+        }
+        .left-text .sixth{
+            font-size: 15px;
+            font-weight: 800;
+            width: 140%;
+            margin-top: 10px;
+        }
+        .left-parent .left-icon{
+            margin-bottom: 40px;
+        }
+        .content-2 .arw{
+            margin-right: 30px;
+        }
+        .content-2 .cnt-2{
+            font-size: 15px;
+        }
+        
+        
+        .right{
+            width: 100%;
+            align-items: center;
+            display: block;
+        }
+        .right-cnt{
+            margin-left: 60px;
+            margin-bottom: 50px;
+        }
+
+        .right-cnt .content-right{
+            width: 70%;
+            font-size: 55px;
+            margin-top: 90px;
+        }
+        
+        input{
+            width: 80%;
+            height: 80px;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            border-radius: 2px;
+            border: white;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        .btn{
+            width: 25%;
+            height: 65px;
+            font-size: large;
+        }
+        .btn-prt{
+            margin-top: 75px;
+        }
+
+        /* second-section */
+
+        .second-container{
+            flex-direction: column;
+            width: 100%;
+            padding: 0% 10px;
+            height: auto;
+            margin-left: 40px;
+        }
+
+        .second-left{
+            width: 100%;   
+        }
+
+        .second-container .process-content{
+            margin-left: 10px;
+            margin-top: 45px;
+        }
+        
+        .second-container .process-content h1{
+            width: 90%;
+            font-size: 55px;
+            font-weight: 700;
+        }
+
+
+
+        .process-btn .pro-btn{
+            margin-left: 10px;
+        }
+
+        .second-right{
+            width: 100%;
+            margin-left: -150px;
+            margin-top: -150px;
+        }
+
+    }
+
+
+
+/* for mobile */ 
+
+@media screen (max-width: 425px) {
     header{
         width: 100%;
         padding: 25px;
@@ -916,8 +1171,6 @@ input{
     main .container .main-right .rating{
         width: 90%;
     }
-
-
     main .container .main-left .content{
     text-align: center;
     width: 100%;
@@ -1173,7 +1426,3 @@ input{
 
 }
 
-/* For tablet */
-@media screen and (max-width: 850px) {
-    
-}
