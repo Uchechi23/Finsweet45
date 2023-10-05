@@ -1545,13 +1545,14 @@ input{
 
         .second-container .process-content{
             margin-left: 10px;
-            margin-top: 45px;
+            margin-top: 85px;
         }
         
         .second-container .process-content h1{
             width: 80%;
             font-size: 25px;
             font-weight: 700;
+            line-height: 40px;
         }
 
 
@@ -1561,8 +1562,8 @@ input{
         }
 
         .second-right{
-            width: 100%;
-            margin-left: -150px;
+            width: 115%;
+            margin-right: 120px;
             margin-top: -150px;
         }
 
